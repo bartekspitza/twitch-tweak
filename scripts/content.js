@@ -1,12 +1,11 @@
-window.addEventListener("load", () => {
-    var jsInitChecktimer = setInterval(checkForJS_Finish, 50);
+var interval = setInterval(modifySidebar, 50);
 
-    function checkForJS_Finish () {
-        const section = document.querySelector('div[aria-label="Recommended Channels"');
+function modifySidebar() {
+    const section = document.querySelector('div[aria-label="Recommended Channels"');
+    console.log('inhere')
 
-        if (section) {
-            clearInterval(jsInitChecktimer);
-            section.remove();
-        }
+    if (section) {
+        clearInterval(interval);
+        section.remove();
     }
-}, false);
+}
