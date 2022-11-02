@@ -1,0 +1,11 @@
+body {
+  width:300px;
+}
+
+label {
+  margin:auto 0;
+}
+
+ul {
+  list-style-type: none;
+}
