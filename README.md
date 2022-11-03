@@ -1,4 +1,4 @@
-Removes the "Recommended Channels" section from the side-bar from [twitch](www.twitch.tv).
+Removes the "Recommended Channels" section from the side-bar from [twitch](https://twitch.tv).
 
 # Installation
 Not distributed on chrome extension store. Need to manually install on each device:
