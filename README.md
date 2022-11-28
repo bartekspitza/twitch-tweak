@@ -1,8 +1,9 @@
-Removes the "Recommended Channels" section from the side-bar from [twitch](https://twitch.tv).
+Chrome extension to remove the "Recommended Channels" section from the side-bar from [twitch](https://twitch.tv).
 
 # Installation
-Not distributed on chrome extension store. Need to manually install on each device:
+Not distributed on chrome extension store. Manual installation required:
 
-1. Clone repo
-2. Follow instructions [here](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked) on how to locally run extensions.
-3. Visit or refresh twitch to make it work.
+    1. git clone git@github.com:bartekspitza/twitch-tweak.git
+    2. Navigate to chrome://extensions
+    3. Click "Load unpacked" and choose the cloned repo
+    3. Visit or refresh twitch to make it work
